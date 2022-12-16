@@ -1,0 +1,208 @@
+.registration-form {
+    padding: 5px 50px;
+}
+
+.registration-form form {
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    margin: auto;
+    padding: 0px 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: var(--text);
+}
+
+.registration-form .form-icon {
+    text-align: center;
+}
+
+.registration-form .form-icon img {
+    width: 160px;
+    height: 40px;
+}
+
+.registration-form .registration-form-item {
+    border-radius: 35px;
+    margin-bottom: 5px;
+    padding: 14px 20px;
+    margin-top: 15px;
+    width: 100%;
+    font-weight: 500 !important;
+}
+
+.registration-form .form-group .create-account {
+    text-align: center;
+}
+
+.registration-form .form-group .create-account button {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 2px solid blue;
+    color: rgb(0, 0, 0);
+}
+
+#error {
+    color: red;
+    text-align: center;
+}
+
+#google-signin-btn {
+    margin-left: 50px;
+}
+
+.privacy {
+    font-family: var(--text);
+    font-size: 10px;
+}
+
+#signInlink {
+    background: rgb(64, 64, 246);
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    margin: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signInlink:hover {
+    color: rgb(0, 0, 0);
+}
+
+#termandconditons {
+    margin: 5px;
+    font-family: var(--text);
+    font-size: 11px;
+    text-align: justify;
+}
+
+@media (max-width: 1400px) {
+    .registration-form {
+        margin-top: 0px;
+    }
+    .registration-form form {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .registration-form form {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .registration-form form {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .registration-form {
+        padding: 5px 20px;
+        margin: 0px !important;
+    }
+    .registration-form .form-icon img {
+        width: 145px !important;
+        height: 35px !important;
+    }
+    .registration-form .registration-form-item {
+        border-radius: 25px;
+        margin-bottom: 5px;
+        padding: 8px 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .registration-form .form-group .create-account button {
+        border-radius: 50px;
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+    #google-signin-btn {
+        margin-left: 50px !important;
+    }
+    .privacy {
+        font-family: var(--text);
+        font-size: 8px;
+    }
+    #termandconditons {
+        margin: 4px;
+        font-family: var(--text);
+        font-size: 8px;
+        text-align: justify;
+    }
+    .registration-form form {
+        box-shadow: none !important;
+    }
+    #google-signin-btn {
+        margin-left: 55px;
+    }
+    .registration-form .form-icon img {
+        width: 180px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 576px) {
+    .registration-form {
+        padding: 0px 10px;
+        margin: 0px !important;
+    }
+    .registration-form .form-icon {
+        text-align: center;
+    }
+    .registration-form .form-icon img {
+        width: 130px !important;
+        height: 32px !important;
+    }
+    .registration-form .registration-form-item {
+        border-radius: 20px;
+        margin-bottom: 5px;
+        padding: 4px 8px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .registration-form .form-group .create-account button {
+        border-radius: 50px;
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    #google-signin-btn {
+        margin-left: 45px !important;
+    }
+    .privacy {
+        font-family: var(--text);
+        font-size: 6px;
+    }
+    #termandconditons {
+        margin: 4px;
+        font-family: var(--text);
+        font-size: 8px;
+        text-align: justify;
+    }
+    .registration-form form {
+        box-shadow: none !important;
+    }
+    #google-signin-btn {
+        margin-left: 55px;
+    }
+    .registration-form .form-icon img {
+        width: 180px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 476px) {
+    #google-signin-btn {
+        margin-left: 20px !important;
+    }
+}
+
+@media (max-width: 376px) {
+    #google-signin-btn {
+        margin-left: 0px !important;
+    }
+}

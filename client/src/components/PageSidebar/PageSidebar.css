@@ -1,0 +1,290 @@
+#root .page-sidebar {
+    position: fixed;
+    top: 0;
+    right: 18%;
+    bottom: 3;
+    width: 300px;
+    height: 100vh;
+    margin-top: 50px;
+    text-align: center;
+    background: white;
+}
+
+#dnz {
+    margin-top: 62px !important;
+    z-index: 100;
+}
+
+#root .page-sidebar-expand-arrow {
+    position: fixed;
+    top: 3;
+    right: 0;
+    bottom: 3;
+    margin-top: 55px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.page-sidebar #expand {
+    text-align: center;
+}
+
+.page-sidebar-main {
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 60px;
+    top: 0;
+    bottom: 0;
+    left: 50;
+    background-color: rgb(255, 255, 255);
+    border-left: 0.1px solid rgb(209, 208, 208);
+    height: 100vh;
+    top: 0px;
+    position: -webkit-sticky;
+    overflow-y: scroll;
+}
+
+#saved-local-st {
+    margin: 0.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#saved-local-st div .MuiSvgIcon-root:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 2500px) {
+    #root .page-sidebar {
+        position: fixed;
+        top: 0;
+        right: 10%;
+        bottom: 3;
+        width: 300px;
+        height: 100vh;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+    #root .page-sidebar {
+        position: fixed;
+        top: 0;
+        right: 0%;
+        bottom: 3;
+        width: 300px;
+        height: 100vh;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #root .page-sidebar {
+        margin-top: 40px !important;
+    }
+}
+
+.page-sidebar-main-grid {
+    width: 100%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 1rem !important;
+    color: grey !important;
+}
+
+.page-sidebar-main {
+    --scrollbarBG: #ffffff;
+    --thumbBG: #d0d0d0;
+}
+
+.page-sidebar-main::-webkit-scrollbar {
+    width: 11px;
+}
+
+.page-sidebar-main {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.page-sidebar-main::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.page-sidebar-main::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 20px;
+    border: 3.5px solid var(--scrollbarBG);
+}
+
+.user-achievents-card-sidebar-page {
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: #ffffff;
+    margin-bottom: 1rem;
+    display: grid;
+    width: 100%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.user-achievents-card-sidebar-page #first {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.user-achievents-card-sidebar-page #first span {
+    margin-left: 5px;
+}
+
+.user-achievents-card-sidebar-page #second {
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 5px;
+}
+
+.user-achievents-card-sidebar-page #second #title {
+    font-size: 1.2rem;
+    color: blue;
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.user-achievents-card-sidebar-page #second #no {
+    text-align: center;
+    font-weight: 600;
+}
+
+.cat-card-sidebar-page {
+    text-align: center;
+    border-radius: 10px;
+    background: #efeff8;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 90% 8%;
+    grid-gap: 2%;
+    text-align: left;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    height: fit-content;
+}
+
+.cat-card-sidebar-page .basic-multi-select .select__control {
+    height: 20px !important;
+    border-radius: 20px !important;
+    font-size: 0.8rem !important;
+}
+
+.cat-card-sidebar-page:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+.cat-card-sidebar-page #first span {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.social-media-links-build-code {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin: auto;
+}
+
+#send-feedback-grid {
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#send-feedback-grid span {
+    margin-left: 10px;
+}
+
+.user-details-page-sidebar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.user-details-page-sidebar #img img {
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.page-sidebar-project-skills {
+    word-wrap: break-word;
+    width: 100%;
+    padding-top: 0px;
+    height: auto;
+    padding-bottom: 28px;
+}
+
+.page-sidebar-project-skills small {
+    display: inline-block;
+    padding: 4px 15px;
+    background: white;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin: 0.2rem;
+}
+
+.page-sidebar-project-skills small:hover {
+    background: #efeff8;
+}
+
+.created-request-post-card-sidebar-page {
+    padding: 10px 16px;
+    text-align: center;
+    border-radius: 10px;
+    background: #efeff8;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 8% 90%;
+    grid-gap: 2%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    color: blue;
+}
+
+.created-request-post-card-sidebar-page:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+.page-sidebar-signup-btn {
+    text-align: center;
+}
+
+.page-sidebar-signup-btn .signup {
+    background: blue;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    margin: 0.5rem;
+    border-radius: 0.2rem;
+}

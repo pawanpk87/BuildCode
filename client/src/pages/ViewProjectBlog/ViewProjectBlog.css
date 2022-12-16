@@ -1,0 +1,294 @@
+.view-article-card-main-page {
+    width: 100%;
+    font-family: var(--text);
+    background: rgb(255, 255, 255);
+}
+
+.view-article-card {
+    margin: auto;
+    width: 60%;
+    padding-top: 2%;
+    font-size: 1.2rem;
+    padding-left: 6%;
+    background: white;
+    word-spacing: 5px;
+    text-align: justify !important;
+    color: rgb(51, 49, 49);
+    padding-left: 6%;
+    background: white;
+}
+
+.view-article-desc {
+    width: 100%;
+    text-align: center;
+}
+
+.view-article-desc .view-article-cover-img img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.view-article-main-content iframe {
+    margin: auto;
+    width: 100%;
+    height: 50rem;
+}
+
+.view-article-card h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#article-written-title {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.view-article-main-content {
+    text-align: justify;
+}
+
+.view-article-main-content img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sidenav {
+    width: 130px;
+    height: 40rem;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 0%;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 8px 0;
+    text-align: center;
+    margin: auto;
+    font-family: var(--text);
+}
+
+.sidenav .view-article-user .user-img img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.sidenav .view-article-like-comment-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0%;
+    padding: 15px;
+}
+
+.sidenav .user-profile-links .link {
+    display: inline-block;
+    margin: 5px;
+    font-size: 0.8rem;
+}
+
+.sidenav .view-article-team-members {
+    width: 100%;
+}
+
+.sidenav .view-article-team-members .team-members {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 1px 10px rgba(38, 0, 255, 0.2);
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+}
+
+.sidenav .view-article-team-members .team-members .img img {
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidenav .view-article-team-members .team-members .name span {
+    color: rgb(0, 0, 0);
+    font-size: 0.6rem;
+}
+
+.sidenav {
+    --scrollbarBG: #ffffff;
+    --thumbBG: #ffffff;
+    color: rgb(65, 65, 65);
+}
+
+.sidenav::-webkit-scrollbar {
+    width: 9px;
+}
+
+.sidenav {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.sidenav::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.sidenav::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 20px;
+    border: 3.5px solid var(--scrollbarBG);
+}
+
+.view-article-tags {
+    margin-bottom: 8px;
+}
+
+.view-article-tags small {
+    font-size: 12px;
+    border: 0.1px solid rgb(204, 204, 204);
+    padding: 2px 4px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 2500px) {
+    .view-article-card {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .view-article-card {
+        width: 70%;
+    }
+    .view-article-card iframe {
+        margin: auto;
+        width: 100%;
+        height: 30rem;
+    }
+}
+
+.completed-project-project-link {
+    margin-top: 0.2rem;
+    width: 100%;
+    color: rgb(0, 42, 255);
+    background: rgb(241, 239, 239);
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .sidenav {
+        width: 100%;
+        margin: auto !important;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding: 2px 0;
+        height: 20rem;
+    }
+    .sidenav {
+        --scrollbarBG: #ffffff;
+        --thumbBG: #a2a2a2;
+        color: rgb(65, 65, 65);
+    }
+    .sidenav .view-article-like-comment-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 5% 5%;
+        grid-gap: 0%;
+        padding: 15px;
+    }
+    .sidenav .user-profile-links .link {
+        display: inline-block;
+        margin: 5px;
+        font-size: 1.2rem;
+    }
+    .sidenav .view-article-like-comment-grid>.MuiSvgIcon-root {
+        width: 1.2rem !important;
+    }
+    .view-article-card {
+        margin: auto;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    .view-article-main-content iframe {
+        margin: auto;
+        width: 100%;
+        height: 30rem;
+    }
+    .sidenav .view-article-team-members {
+        width: 50%;
+        margin: auto;
+    }
+    .sidenav .view-article-team-members .team-members {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        box-shadow: 0 1px 10px rgba(38, 0, 255, 0.2);
+        border-radius: 10px;
+        width: 90%;
+        padding: 10px;
+    }
+    .sidenav .view-article-team-members .team-members .img img {
+        width: 30%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .sidenav .view-article-team-members .team-members .name span {
+        color: rgb(0, 0, 0);
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidenav .view-article-user .user-img img {
+        width: 6%;
+    }
+    .sidenav .user-profile-links .link {
+        font-size: 1rem;
+    }
+    .sidenav .view-article-like-comment-grid>.MuiSvgIcon-root {
+        width: 1rem !important;
+    }
+    .view-article-main-content iframe {
+        margin: auto;
+        width: 100%;
+        height: 20rem;
+    }
+    .view-article-card {
+        margin: auto;
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 13px;
+        font-size: 1.2rem;
+        word-spacing: 6px;
+        margin-top: 10px;
+    }
+}

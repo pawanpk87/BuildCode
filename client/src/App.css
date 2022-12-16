@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@480&display=swap');
+:root {
+    --text: 'Kantumruy Pro', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content {
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 230px;
+    margin-right: auto;
+    overflow: hidden !important;
+    font-family: var(--text) !important;
+}
+
+.makeLink:hover {
+    text-decoration: underline !important;
+}
+
+#root .main-content {
+    height: 100%;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 2000px) {
+    .main-content {
+        height: 100vh;
+        margin-top: 70px;
+        margin-left: 10px;
+        margin-right: 310px;
+        overflow: hidden !important;
+        font-family: var(--text);
+    }
+}
+
+@media only screen and (max-width:1268px) {
+    .main-content {
+        height: 100vh;
+        margin-top: 70px;
+        margin-left: 0px !important;
+        margin-right: 310px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .main-content {
+        width: 100%;
+        height: 100vh;
+        margin-top: 70px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .main-content {
+        height: 100vh;
+        margin-top: 70px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .main-content {
+        height: 100vh;
+        margin-top: 70px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+}
+
+.build-code-btn {
+    width: 50%;
+    color: rgb(0, 42, 255);
+    background: rgb(241, 239, 239);
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.build-code-btn:hover {
+    color: rgb(0, 0, 0);
+}
+
+.build-code-link {
+    width: 25%;
+    padding: 0px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: #ffffff;
+    margin: 0.1rem;
+    text-align: center;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.build-code-link:hover {
+    color: blue;
+    text-decoration: underline !important;
+}
+
+.build-code-tag {
+    width: fit-content;
+    color: rgb(63, 63, 63);
+    background: rgb(255, 255, 255);
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    display: inline;
+    font-size: 0.8rem !important;
+    display: inline-block;
+    margin: 0.3rem;
+    font-weight: 700;
+}
+
+.build-code-tag:hover {
+    text-decoration: underline;
+    color: rgb(0, 13, 255);
+}
+
+
+/* html {
+    --scrollbarBG: #ffffff;
+    --thumbBG: #7b7b7b;
+}
+
+body::-webkit-scrollbar {
+    width: 18px;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 20px;
+    border: 3.5px solid var(--scrollbarBG);
+} */

@@ -1,0 +1,29 @@
+.build-code-t-c-d-fields {
+    width: 60%;
+    padding: 50px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 2000px) {
+    .build-code-t-c-d-fields {
+        width: 80%;
+        padding: 50px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .build-code-t-c-d-fields {
+        width: 100%;
+        padding: 50px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .build-code-t-c-d-fields {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+}

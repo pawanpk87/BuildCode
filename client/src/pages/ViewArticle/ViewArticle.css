@@ -1,0 +1,292 @@
+.view-article-card-main-page {
+    width: 100%;
+    font-family: var(--text);
+    background: rgb(255, 255, 255);
+}
+
+.view-article-card {
+    margin: auto;
+    width: 60%;
+    padding-top: 2%;
+    padding-left: 6%;
+    background: white;
+}
+
+.view-article-desc {
+    width: 100%;
+    text-align: center;
+}
+
+.view-article-desc .view-article-cover-img img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.view-article-card h3 {
+    text-align: center;
+    color: blue;
+}
+
+#article-written-title {
+    font-size: 1.2rem;
+    color: blue;
+}
+
+.view-article-main-content {
+    text-align: justify;
+}
+
+.view-article-main-content .ql-syntax {
+    padding: 2rem;
+    width: 98%;
+    text-align: justify;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-weight: 900;
+    background: rgb(234, 234, 238);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.view-article-main-content .ql-syntax {
+    --scrollbarBG: #ffffff;
+    --thumbBG: #e2e1e1;
+}
+
+.view-article-main-content .ql-syntax::-webkit-scrollbar {
+    width: 12px;
+}
+
+.view-article-main-content .ql-syntax {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.view-article-main-content .ql-syntax::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.view-article-main-content .ql-syntax::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 20px;
+    border: 3.5px solid var(--scrollbarBG);
+}
+
+.view-article-main-content iframe {
+    margin: auto;
+    width: 100%;
+    height: 50rem;
+}
+
+.view-article-main-content img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 20% !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: block;
+    overflow-x: hidden;
+    padding: 8px 0;
+    text-align: center;
+    margin: auto;
+}
+
+#user-article {
+    top: 26% !important;
+}
+
+.sidenav .view-article-user .user-img img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.sidenav .view-article-user .user-info {
+    font-size: 0.8rem;
+    width: calc(100%);
+    margin: auto;
+    height: calc(5%);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidenav .view-article-like-comment-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0%;
+    padding: 15px;
+}
+
+.sidenav .user-profile-links .link {
+    display: inline-block;
+    margin: 5px;
+    font-size: 0.8rem;
+}
+
+.view-article-tags {
+    margin-bottom: 8px;
+}
+
+.view-article-tags small {
+    font-size: 0.6rem;
+    border: 0.1px solid rgb(204, 204, 204);
+    padding: 2px 4px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.user-social-media-link {
+    width: 100%;
+}
+
+.user-social-media-link .link {
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0.2rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 2500px) {
+    .view-article-card {
+        width: 60%;
+    }
+    .view-article-main-content iframe {
+        margin: auto;
+        width: 100%;
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .view-article-card {
+        width: 70%;
+    }
+    .view-article-main-content iframe {
+        margin: auto;
+        width: 100%;
+        height: 30rem;
+    }
+    .sidenav {
+        margin-left: 40px !important;
+    }
+    .sidenav {
+        left: 0% !important;
+    }
+    .sidenav .view-article-user .user-img img {
+        width: 45px !important;
+        height: 45px !important;
+        border-radius: 50px !important;
+        object-fit: cover !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .sidenav .view-article-user .user-img img {
+        width: 45px !important;
+        height: 45px !important;
+        border-radius: 50px !important;
+        object-fit: cover !important;
+    }
+    .sidenav {
+        width: 100%;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding: 8px 40px;
+    }
+    .view-article-card {
+        width: 100%;
+    }
+    .sidenav .view-article-user .user-img img {
+        width: 4%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .sidenav .view-article-like-comment-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 5% 5%;
+        grid-gap: 0%;
+        padding: 15px;
+    }
+    .sidenav .user-profile-links .link {
+        display: inline-block;
+        margin: 5px;
+        font-size: 1.2rem;
+    }
+    .sidenav .view-article-like-comment-grid>.MuiSvgIcon-root {
+        width: 1.2rem !important;
+    }
+    .view-article-card {
+        margin: auto;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1.2rem;
+        word-spacing: 6px;
+        margin-top: 10px;
+    }
+    .view-article-main-content iframe {
+        margin: auto;
+        width: 100%;
+        height: 30rem;
+    }
+    .sidenav {
+        margin-left: 20px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidenav .view-article-user .user-img img {
+        width: 45px !important;
+        height: 45px !important;
+        border-radius: 50px !important;
+        object-fit: cover !important;
+    }
+    .sidenav .user-profile-links .link {
+        font-size: 1rem;
+    }
+    .sidenav .view-article-like-comment-grid>.MuiSvgIcon-root {
+        width: 1rem !important;
+    }
+    .view-article-main-content iframe {
+        margin: auto;
+        width: 100%;
+        height: 20rem;
+    }
+    .view-article-card {
+        margin: auto;
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 13px;
+        font-size: 1.2rem;
+        word-spacing: 6px;
+        margin-top: 10px;
+    }
+    .sidenav {
+        margin-left: 10px !important;
+    }
+}

@@ -1,0 +1,134 @@
+.requested-project-update-main {
+    width: 100%;
+    font-family: var(--text);
+    margin-top: 35px;
+}
+
+.requested-project-update-form {
+    font-weight: 600;
+    width: 100%;
+    margin: auto;
+}
+
+.requested-project-update-form form {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 60% 30%;
+    grid-gap: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.requested-project-update-form .form-icon {
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    display: table-caption;
+    margin-bottom: 0px;
+    line-height: 60px;
+}
+
+.fields-desc {
+    padding: 20px;
+    margin: auto;
+    text-justify: auto;
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 450;
+    color: #888;
+}
+
+.requested-project-update-form .requested-project-update-form-item {
+    border-radius: 35px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.form-topic-text {}
+
+.form-group input {
+    outline: none !important;
+    font-weight: 600;
+}
+
+.form-group textarea {
+    outline: none !important;
+    font-weight: 600;
+}
+
+.requested-project-update-form .create-post {
+    border-radius: 2rem;
+    border: 2px solid blue;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+#target-date {
+    margin-top: 10px;
+}
+
+#target-date input {
+    border-radius: 3rem;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    border: 0.5px solid rgb(184, 184, 184);
+    width: 100%;
+    outline: none !important;
+}
+
+#error {
+    font-style: italic;
+    font-size: medium;
+    color: red;
+    text-align: center;
+}
+
+.field-name {
+    color: rgb(34, 34, 41);
+    font-weight: 600;
+}
+
+.porject-request-all-skills .select__control {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.post-project-intro {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    grid-template-rows: auto;
+}
+
+@media only screen and (max-width:1200px) {
+    .requested-project-update-form form {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .requested-project-update-form form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .requested-project-update-form form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .requested-project-update-form form {
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+    }
+}

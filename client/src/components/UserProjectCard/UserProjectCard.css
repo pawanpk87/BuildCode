@@ -1,0 +1,62 @@
+.complete-pjt-card {
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 20px rgba(129, 129, 129, 0.2);
+}
+
+.complete-pjt-card-loader {
+    margin: 10px;
+    padding: 10px;
+}
+
+.complete-pjt-card a:hover {
+    color: black;
+}
+
+.complete-pjt-card h6 {
+    color: rgb(0, 0, 0);
+}
+
+.complete-pjt-card p {
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: rgb(57, 57, 57);
+    word-spacing: 6px;
+    font-size: small;
+}
+
+.complete-pjt-card small {
+    color: rgb(137, 137, 137);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: x-small;
+}
+
+.complete-pjt-card .title {
+    width: 100%;
+}
+
+.complete-pjt-card .title span {
+    font-size: 1rem;
+    word-spacing: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: blue;
+}

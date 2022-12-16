@@ -1,0 +1,43 @@
+.erro-page-main-grid {
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+}
+
+.erro-page-main-grid img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:1268px) {
+    .erro-page-main-grid img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .erro-page-main-grid img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .erro-page-main-grid img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and(max-width:500) {
+    .erro-page-main-grid img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,80 @@
+.team-member {
+    width: 10rem;
+    font-family: var(--text);
+    display: inline-block;
+    border-radius: 0.8rem;
+    box-shadow: 0 1.5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    background: white;
+}
+
+.team-member .user-img {
+    overflow: hidden;
+    margin: auto;
+    margin: auto;
+    margin: 1px;
+    color: #f1f1f1;
+}
+
+.team-member .user-img img {
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+
+.team-member span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(45, 45, 181);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.user-joined-date span {
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: grey;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .user-name span>.MuiSvgIcon-root {
+        width: 0.6rem;
+    }
+    .team-member {
+        width: 6rem;
+        margin: 10px;
+        padding: 5px;
+    }
+    .team-member .user-img {
+        height: 6em;
+    }
+    .team-member .user-img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        overflow: hidden;
+    }
+    .team-member span {
+        font-size: 0.6rem;
+    }
+    .user-joined-date span {
+        font-size: 0.4rem;
+    }
+}

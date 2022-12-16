@@ -1,0 +1,77 @@
+.sidebarChat {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-family: var(--text);
+}
+
+.sidebarChat img {
+    width: 42px;
+    height: 40px;
+}
+
+.sidebarChat:hover {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background: rgb(241, 239, 239);
+    padding: 0.6rem 0.8rem;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.user-last-message {
+    font-size: 0.7rem;
+    color: rgb(104, 131, 253);
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.sidebarChat_info>h2 {
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+
+.sidebarChat_info {
+    margin-left: 15px;
+}
+
+@media only screen and (max-width:1200px) {
+    .sidebarChat_info {
+        max-width: 80px;
+        word-break: break-all;
+    }
+    .sidebarChat_info>h2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    .sidebarChat_info {
+        margin-left: 5px;
+    }
+    .sidebarChat {
+        padding: 0px;
+        margin-left: 10px;
+    }
+}

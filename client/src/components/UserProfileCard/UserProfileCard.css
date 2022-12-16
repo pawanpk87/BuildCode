@@ -1,0 +1,42 @@
+.user-profile-card-main {
+    width: 100%;
+    display: inline;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.user-profile-card-main .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-profile-card-main .extar-info {
+    text-align: center;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width:1400px) {
+    .user-profile-card-main .extar-info {
+        font-size: 0.6rem;
+    }
+    .user-profile-card-main {
+        padding: 0.5rem;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .user-profile-card-main .extar-info {
+        font-size: 0.6rem;
+    }
+    .user-profile-card-main {
+        padding: 0.4rem;
+    }
+}

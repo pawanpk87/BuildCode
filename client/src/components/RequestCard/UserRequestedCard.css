@@ -1,0 +1,292 @@
+.user-requested-card {
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 39% 59%;
+    grid-gap: 2%;
+    font-family: var(--text);
+    box-shadow: 0 2px 20px rgb(225, 224, 224);
+    margin-top: 40px;
+}
+
+.user-requested-card .user-details .img {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+.user-requested-card .user-details .img img {
+    width: 55px;
+    border-radius: 55px;
+    object-fit: cover;
+}
+
+.user-requested-card .user-details .img small {
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.6rem;
+    color: rgb(62, 62, 62);
+    font-weight: 600;
+}
+
+.user-requested-card .user-details .name {
+    width: 80%;
+    text-align: center;
+}
+
+.user-requested-card .user-details .name small {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.6rem;
+    color: blue;
+    font-weight: 550;
+}
+
+.user-requested-card-project-details span {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.6rem;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 550;
+}
+
+.user-requested-card-project-details a {
+    padding: 8px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:1600px) {
+    .user-requested-card {
+        width: 98%;
+        height: fit-content;
+        padding: 10px;
+        border-radius: 1rem;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 39% 59%;
+        grid-gap: 1%;
+        font-family: var(--text);
+        margin-top: 40px;
+    }
+    .user-requested-card .user-details .img {
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .user-requested-card .user-details .img img {
+        width: 45px;
+        height: 45px;
+        border-radius: 55px;
+        object-fit: cover;
+    }
+    .user-requested-card .user-details .img .posted-day {
+        margin-top: 4px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.6rem;
+        color: rgb(62, 62, 62);
+        font-weight: 600;
+    }
+    .user-requested-card .user-details .name {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .user-requested-card .user-details .name span {
+        display: -webkit-box;
+        -webkit-line-clamp: 2 !important;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.6rem;
+        color: blue;
+        font-weight: 550;
+    }
+    .user-requested-card-project-details span {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1.2rem;
+        color: blue;
+        font-weight: 550;
+    }
+    .user-requested-card-project-details a {
+        padding: 6px;
+        background: blue;
+        color: white;
+        border-radius: 5px;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .user-requested-card {
+        width: 98%;
+        height: fit-content;
+        padding: 20px;
+        border-radius: 1rem;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-gap: 2%;
+        font-family: var(--text);
+        margin-top: 30px;
+        text-align: center;
+    }
+    .user-requested-card .user-details .img {
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .user-requested-card .user-details .img img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+    .user-requested-card .user-details .img .posted-day {
+        margin-top: 4px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.4rem;
+        color: rgb(62, 62, 62);
+        font-weight: 600;
+    }
+    .user-requested-card .user-details .name {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .user-requested-card .user-details .name span {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.5rem;
+        color: blue;
+        font-weight: 550;
+    }
+    .user-requested-card-project-details span {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.6rem;
+        color: rgb(0, 0, 0);
+        font-weight: 550;
+    }
+    .user-requested-card-project-details a {
+        padding: 4px;
+        background: blue;
+        color: white;
+        border-radius: 5px;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .user-requested-card {
+        width: 45%;
+        height: fit-content;
+        padding: 10px;
+        border-radius: 1rem;
+        display: inline-block;
+        font-family: var(--text);
+        margin-left: 20px;
+    }
+    .user-requested-card .user-details .img {
+        width: 80%;
+        height: 80%;
+        text-align: center;
+    }
+    .user-requested-card .user-details .img img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+    .user-requested-card .user-details .img .posted-day {
+        margin-top: 4px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.4rem;
+        color: rgb(62, 62, 62);
+        font-weight: 600;
+    }
+    .user-requested-card .user-details .name {
+        width: 80%;
+        text-align: center;
+    }
+    .user-requested-card .user-details .name span {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.5rem;
+        color: blue;
+        font-weight: 550;
+    }
+    .user-requested-card-project-details span {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.8rem;
+        color: rgb(0, 0, 0);
+        font-weight: 550;
+    }
+    .user-requested-card-project-details a {
+        padding: 8px;
+        background: blue;
+        color: white;
+        border-radius: 5px;
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .user-requested-card {
+        width: 90%;
+        height: fit-content;
+        padding: 10px;
+        border-radius: 1rem;
+        display: inline-block;
+        font-family: var(--text);
+        margin-left: 20px;
+    }
+}

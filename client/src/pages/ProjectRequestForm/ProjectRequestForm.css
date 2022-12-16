@@ -1,0 +1,339 @@
+.post-project-main {
+    width: 70%;
+    font-family: var(--text);
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.project-post-form {
+    font-weight: 600;
+    width: 100%;
+    margin: auto;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 1rem !important;
+    color: grey !important;
+}
+
+.project-post-form form {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 20px 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-gap: 30px;
+    width: 85%;
+    height: auto;
+}
+
+.project-post-form .form-icon {
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    display: table-caption;
+    margin-bottom: 0px;
+    line-height: 60px;
+}
+
+.fields-desc {
+    padding: 20px;
+    margin: auto;
+    text-justify: auto;
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 450;
+    color: #888;
+}
+
+.project-post-form .project-post-form-item {
+    border-radius: 35px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.form-group input {
+    outline: none !important;
+    font-weight: 600;
+}
+
+.form-group textarea {
+    outline: none !important;
+    font-weight: 600;
+}
+
+.project-post-form .create-post {
+    border-radius: 2rem;
+    border: 2px solid blue;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+#target-date {
+    margin-top: 10px;
+}
+
+#target-date input {
+    border-radius: 3rem;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    border: 0.5px solid rgb(184, 184, 184);
+    width: 100%;
+    outline: none !important;
+}
+
+#error {
+    font-style: italic;
+    font-size: medium;
+    color: red;
+    text-align: center;
+}
+
+.field-name {
+    color: rgb(34, 34, 41);
+    font-weight: 600;
+}
+
+.porject-request-all-skills .select__control {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.post-project-intro {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    grid-template-rows: auto;
+}
+
+.post-project-intro .project-intro-content {
+    padding: 0px;
+}
+
+.post-project-intro .project-intro-img img {
+    width: 330px;
+    height: 300px;
+}
+
+.post-project-intro .project-intro-content .first-title {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.post-project-intro .project-intro-content .first-title .MuiSvgIcon-root {
+    width: 50px !important;
+    height: 50px !important;
+    color: black;
+}
+
+.post-project-intro .project-intro-content .second-title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: rgb(0, 0, 255);
+}
+
+.post-project-instruction-main-grid {
+    width: 80%;
+    margin: auto;
+}
+
+.post-project-instruction-main-grid .instruction-grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 15% 80%;
+    grid-template-rows: auto;
+    padding: 10px;
+}
+
+.post-project-rec-card {
+    width: 80%;
+    margin: auto;
+}
+
+.post-project-instruction-main-grid .instruction-grid .instruction-img img {
+    width: 75px;
+    height: 60px;
+}
+
+.post-project-instruction-main-grid .instruction-grid .instruction-text {
+    font-size: large;
+    font-weight: 900;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.post-project-instruction-main-grid ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.post-project-instruction-main-grid ul:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    background: rgb(0, 0, 255);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    height: calc(100% - 10px);
+}
+
+.post-project-instruction-main-grid ul li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.post-project-instruction-main-grid ul li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 0, 255);
+    position: absolute;
+    left: 0;
+    top: 35px;
+    border-radius: 10px;
+}
+
+.post-project-rec-card {
+    width: 55%;
+    margin-left: 8%;
+}
+
+@media only screen and (max-width:2000px) {
+    .post-project-main {
+        width: 80%;
+        font-family: var(--text);
+        margin: auto;
+        padding-top: 2rem;
+    }
+    .post-project-rec-card {
+        width: 85%;
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width:1668px) {
+    .post-project-main {
+        width: 100%;
+        margin: auto;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .post-project-intro .project-intro-content .first-title {
+        font-size: 1.8rem;
+    }
+    .post-project-intro .project-intro-content .second-title {
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .project-post-form form {
+        width: 90%;
+    }
+    .post-project-intro .project-intro-content .first-title {
+        font-size: 1.6rem;
+    }
+    .post-project-intro .project-intro-content .second-title {
+        font-size: 2.2rem;
+    }
+    .post-project-rec-card {
+        width: 80%;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .project-post-form form {
+        width: 100%;
+    }
+    .post-project-intro {
+        width: 100%;
+    }
+    .post-project-intro .project-intro-content .first-title {
+        font-size: 1.5rem;
+    }
+    .post-project-intro .project-intro-content .second-title {
+        font-size: 1.8rem;
+    }
+    .post-project-rec-card {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .project-post-form form {
+        width: 100%;
+    }
+    .post-project-intro {
+        grid-template-columns: 80%;
+    }
+    .post-project-intro {
+        width: 100%;
+    }
+    .post-project-intro .project-intro-content .first-title {
+        font-size: 1.2rem;
+    }
+    .post-project-intro .project-intro-content .second-title {
+        font-size: 1.2rem;
+    }
+    .post-project-instruction-main-grid .instruction-grid {
+        padding: 5px;
+    }
+    .post-project-instruction-main-grid .instruction-grid .instruction-img img {
+        width: 70px;
+        height: 65px;
+    }
+    .post-project-instruction-main-grid .instruction-grid .instruction-text {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .project-post-form form {
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+    }
+    .post-project-intro {
+        grid-template-columns: 80%;
+    }
+    .project-post-form form {
+        width: 100%;
+    }
+    .post-project-intro .project-intro-content .first-title {
+        font-size: 0.8rem;
+    }
+    .post-project-intro .project-intro-content .second-title {
+        font-size: 0.8rem;
+    }
+    .post-project-instruction-main-grid .instruction-grid {
+        padding: 5px;
+    }
+    .post-project-instruction-main-grid .instruction-grid .instruction-img img {
+        width: 40px;
+        height: 35px;
+    }
+    .post-project-instruction-main-grid .instruction-grid .instruction-text {
+        padding: 5px;
+        font-size: 15px;
+    }
+}

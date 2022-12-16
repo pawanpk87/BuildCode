@@ -1,0 +1,44 @@
+.build-code-offline-main-grid {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.alert {
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    display: flex;
+    font-size: 16px;
+    line-height: 1;
+    padding: 12px;
+}
+
+.alert::before {
+    align-items: center;
+    border-radius: 50%;
+    content: "";
+    color: #fff;
+    display: inline-flex;
+    flex-shrink: 0;
+    justify-content: center;
+    height: 24px;
+    margin-right: 8px;
+    width: 24px;
+}
+
+.alert--warning {
+    border-color: #faebcc;
+    background-color: #fcf8e3;
+    color: #000dff;
+}
+
+.alert--warning:before {
+    background-color: #8a6d3b;
+    content: "\0021";
+}

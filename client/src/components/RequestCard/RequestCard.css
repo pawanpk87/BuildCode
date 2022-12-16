@@ -1,0 +1,582 @@
+.requested-project-card {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px !important;
+    overflow: hidden;
+    width: 100%;
+    height: 534px;
+    text-align: center;
+    font-family: var(--text);
+    max-width: 20rem;
+}
+
+.requested-project-card .card-title {
+    width: 100%;
+    height: 9%;
+    object-fit: cover;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 1.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: var(--text);
+    background: white;
+}
+
+.requested-project-card .card-header {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    text-align: center;
+    color: rgb(56, 56, 255);
+    font-size: 1.8rem;
+    text-align: center !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: var(--text);
+    background: white;
+}
+
+.requested-project-card .requested-project-fields {
+    width: calc(100%);
+    height: calc(16%);
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    word-spacing: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.requested-project-card .requested-project-fields-skills {
+    width: calc(100%);
+    height: calc(15%);
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    word-spacing: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.request-card-skill-tag {
+    background: rgba(245, 245, 245);
+    padding: 2px 6px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 6px;
+}
+
+.requested-project-card .requested-project-team-fields {
+    width: 100%;
+    height: 15%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: black;
+}
+
+.requested-project-team-fields .heading-name {
+    font-size: 0.6rem;
+}
+
+.user {
+    width: 100%;
+    height: 15%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.user .col1 {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.user .col2 {
+    width: 100%;
+    text-align: right;
+    font-size: 15px;
+}
+
+#posted-by {
+    font-size: 10px;
+}
+
+.view-details {
+    border: none;
+    border-radius: 10px;
+    width: 95%;
+    color: rgb(64, 93, 241);
+}
+
+.user .col1 img {
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+}
+
+.user-info small {
+    color: black;
+}
+
+.project-card-tags {
+    width: calc(100%);
+    height: calc(5%);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    margin-top: 0.3rem;
+}
+
+.project-card-tags strong {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: auto;
+}
+
+.project-card-tags small {
+    font-size: 9px;
+    border: 0.1px solid rgb(204, 204, 204);
+    padding: 2px 4px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+@media only screen and (max-width:1400px) {
+    .requested-project-card .card-header {
+        font-size: 20px;
+    }
+    .requested-project-card .requested-project-team-fields {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .requested-project-card {
+        height: 470px;
+        margin: 0px !important;
+    }
+    .requested-project-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-team-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-fields-skills .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-card .card-title {
+        width: 100%;
+        height: 7% !important;
+        font-size: 1.2rem !important;
+    }
+    .requested-project-card .card-header {
+        height: 6%;
+        font-size: 1.2rem !important;
+    }
+    .requested-project-card .requested-project-fields {
+        height: 20%;
+        font-size: 14px !important;
+    }
+    .requested-project-fields-skills .heading-name {
+        font-size: 0.9rem;
+    }
+    .request-card-skill-tag {
+        background: rgba(245, 245, 245);
+        padding: 3px;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 2px;
+    }
+    .requested-project-card .requested-project-team-fields {
+        width: 100%;
+        height: 9%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 25% 25% 25% 25%;
+        color: black;
+        font-size: 9px !important;
+    }
+    .user {
+        width: 100%;
+        height: 15%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 40% 60%;
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+    }
+    .user .col1 {
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        text-align: left;
+        margin-left: 10%;
+    }
+    .user .col2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 12%;
+        font-size: 14px;
+    }
+    #posted-by {
+        font-size: 10px;
+    }
+    .view-details {
+        font-size: 12px;
+    }
+    .user .col1 img {
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .project-card-tags {
+        width: 100%;
+        height: 7%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    .project-card-tags span {
+        font-size: 0.6rem;
+        margin-left: 5px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .project-card-tags span:hover {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .requested-project-card {
+        width: 90%;
+        height: 460px;
+    }
+    .requested-project-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-team-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-fields-skills .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-card .card-title {
+        width: 100%;
+        height: 8% !important;
+        font-size: 1.2rem !important;
+    }
+    .requested-project-card .card-header {
+        height: 6.5%;
+        font-size: 1.2rem !important;
+    }
+    .requested-project-card .requested-project-fields {
+        height: 20%;
+        font-size: 14px !important;
+    }
+    .request-card-skill-tag {
+        background: rgba(245, 245, 245);
+        padding: 3px;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 2px;
+    }
+    .requested-project-card .requested-project-team-fields {
+        width: 100%;
+        height: 9%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 25% 25% 25% 25%;
+        color: black;
+        font-size: 9px !important;
+    }
+    .user {
+        width: 100%;
+        height: 15%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 40% 60%;
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+    }
+    .user .col1 {
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        text-align: left;
+        margin-left: 10%;
+    }
+    .user .col2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 12%;
+        font-size: 14px;
+    }
+    #posted-by {
+        font-size: 10px;
+    }
+    .view-details {
+        font-size: 12px;
+    }
+    .user .col1 img {
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .project-card-tags {
+        width: 100%;
+        height: 8%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    .project-card-tags span {
+        font-size: 0.6rem;
+        margin-left: 5px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .project-card-tags span:hover {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .requested-project-card {
+        width: 100%;
+        height: 490px;
+    }
+    .requested-project-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-team-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-fields-skills .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-card .card-title {
+        width: 100%;
+        height: 8% !important;
+        font-size: 1.2rem !important;
+    }
+    .requested-project-card .card-header {
+        height: 6%;
+        font-size: 1.2rem !important;
+    }
+    .requested-project-card .requested-project-fields {
+        height: 20%;
+        font-size: 14px !important;
+    }
+    .request-card-skill-tag {
+        background: rgba(245, 245, 245);
+        padding: 4px;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 2px;
+    }
+    .requested-project-card .requested-project-team-fields {
+        width: 100%;
+        height: 9%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 25% 25% 25% 25%;
+        color: black;
+        font-size: 9px !important;
+    }
+    .user {
+        width: 100%;
+        height: 15%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 40% 60%;
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+    }
+    .user .col1 {
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        text-align: left;
+        margin-left: 10%;
+    }
+    .user .col2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 12%;
+        font-size: 14px;
+    }
+    #posted-by {
+        font-size: 10px;
+    }
+    .view-details {
+        font-size: 12px;
+    }
+    .user .col1 img {
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .project-card-tags {
+        width: 100%;
+        height: 12%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    .project-card-tags span {
+        font-size: 0.6rem;
+        margin-left: 5px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .project-card-tags span:hover {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .requested-project-card {
+        width: 100%;
+        height: 440px;
+    }
+    .requested-project-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-team-fields .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-fields-skills .MuiSvgIcon-root {
+        width: 15px !important;
+    }
+    .requested-project-card .card-title {
+        width: 100%;
+        height: 9% !important;
+        font-size: 1.4rem !important;
+    }
+    .requested-project-card .card-header {
+        height: 8%;
+        font-size: 1.4rem !important;
+    }
+    .requested-project-fields-skills .heading-name {
+        font-size: 1rem;
+    }
+    .requested-project-card .requested-project-fields {
+        height: 15%;
+        font-size: 18px !important;
+    }
+    .request-card-skill-tag {
+        background: rgba(245, 245, 245);
+        padding: 3px;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 2px;
+        font-size: 12px;
+    }
+    .requested-project-card .requested-project-team-fields {
+        width: 100%;
+        height: 13%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 25% 25% 25% 25%;
+        color: black;
+        font-size: 13px !important;
+    }
+    .user {
+        width: 100%;
+        height: 15%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 40% 60%;
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+    }
+    .user .col1 {
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        text-align: left;
+        margin-left: 10%;
+    }
+    .user .col2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 12%;
+        font-size: 14px;
+    }
+    #posted-by {
+        font-size: 10px;
+    }
+    .view-details {
+        font-size: 14px;
+    }
+    .user .col1 img {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .project-card-tags {
+        width: 100%;
+        height: 11%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    .project-card-tags span {
+        font-size: 0.6rem;
+        margin-left: 5px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .project-card-tags span:hover {
+        text-decoration: underline;
+    }
+}

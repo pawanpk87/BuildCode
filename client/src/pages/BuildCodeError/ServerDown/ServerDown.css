@@ -1,0 +1,20 @@
+.build-code-server-down-warnings {
+    position: relative;
+    text-align: center;
+}
+
+.build-code-server-down-warnings img {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.build-code-server-down-warnings h3 {
+    color: red;
+}
+
+.center-error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

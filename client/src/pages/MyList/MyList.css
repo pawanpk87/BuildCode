@@ -1,0 +1,53 @@
+.userlist-main-grid {
+    width: 80%;
+    min-height: 600px;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.userlist-main-grid .main-contant {
+    width: 100%;
+}
+
+.userlist-main-grid .main-contant .user-list-card-grid {
+    width: 100%;
+}
+
+.userlist-page-tag {
+    width: 100%;
+}
+
+.userlist-page-tag ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.userlist-page-tag li {
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.userlist-page-tag li button {
+    width: 100%;
+    color: rgb(155, 155, 155);
+    background: #efeff8;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    font-family: var(--text);
+}
+
+.userlist-page-tag li button:hover {
+    color: rgb(0, 0, 0);
+}
+
+.active-option {
+    color: black !important;
+}

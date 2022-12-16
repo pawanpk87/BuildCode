@@ -1,0 +1,53 @@
+.post-article-dialog {
+    padding: 30px;
+}
+
+.react-responsive-modal-modal {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.article-cover-img {
+    width: fit-content;
+    border: none;
+    margin-top: 5px;
+    padding: 4px 6px;
+    font-size: 1rem;
+    font-family: var(--text);
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    background: rgb(224, 224, 224);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-article-btn {
+    width: fit-content;
+    border: none;
+    margin-top: 5px;
+    padding: 4px 6px;
+    font-size: 1.2rem;
+    font-family: var(--text);
+    margin-bottom: 10px;
+    background: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-article-btn:hover {
+    text-decoration: underline;
+    color: rgb(9, 24, 189);
+}
+
+.post-article-dialop-article-cover-img {
+    width: 100%;
+    height: 100%;
+}
+
+.post-article-dialop-article-cover-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

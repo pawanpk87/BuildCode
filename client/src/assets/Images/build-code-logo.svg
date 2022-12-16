@@ -1,0 +1,8 @@
+<svg width="380" height="100" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" id="svg_1" d="m59.00001,22c-16.01622,0 -29.00001,12.87185 -29.00001,28.74999c0,15.87808 12.98379,28.74999 29.00001,28.74999c16.01622,0 28.99999,-12.8719 28.99999,-28.74999c0,-15.87814 -12.98378,-28.74999 -28.99999,-28.74999zm-4.65902,47.98759l-7.05592,-7.00117l12.34518,-12.23796l-12.34518,-12.23796l7.05592,-6.99511l19.40257,19.23307l-19.40257,19.23913z" fill="#000000"/>
+  <text stroke="#000" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="monospace" font-size="50" stroke-width="0" id="svg_3" y="68.56646" x="95.69981" fill="#000000">BuildCode</text>
+ </g>
+</svg>

@@ -1,0 +1,343 @@
+.plx-card {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    filter: drop-shadow(0 0.5px 0.6rem rgb(221, 221, 228));
+    border-radius: 4px;
+    font-family: var(--text);
+    margin-bottom: 70px;
+}
+
+.pxc-subcard {
+    border-radius: 10px;
+    background: #ffffff;
+    width: 100%;
+    margin: 5px 5px 15px -25px;
+    z-index: 0;
+    padding: 15px 25px 15px 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.plx-card:hover {
+    color: black;
+}
+
+.pxc-avatar {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 150px;
+    justify-content: space-around;
+}
+
+.pxc-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    box-shadow: 0 0.2px 0.2rem rgba(226, 224, 224, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.pxc-tags {
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+    height: 32px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.pxc-tags div {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    background: rgb(2, 2, 255);
+    border-radius: 12px;
+    padding: 0px 18px;
+    line-height: 1.7;
+    margin: 1px 6px;
+    font-size: 0.8rem;
+    height: 20px;
+    cursor: pointer;
+}
+
+.completed-project-active-field {
+    color: rgb(255, 255, 255) !important;
+}
+
+.pxc-title {
+    position: absolute;
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-family: var(--text);
+    font-size: 1.8rem;
+}
+
+.pxc-title a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.pxc-title #done {
+    font-size: 1.3rem !important;
+    color: green;
+    margin-left: 5px;
+}
+
+.pxc-feats {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    white-space: 3px;
+    color: #000000;
+    flex: 1 1 auto;
+    padding: 0px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+    overflow: hidden;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.pxc-feats span:not(:first-child):before {
+    content: " • ";
+    margin: 3px;
+}
+
+.pxc-feats a:hover {
+    color: black;
+}
+
+small:hover {
+    color: black !important;
+}
+
+.bottom-row {
+    flex: 0 1 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+}
+
+.bottom-row .pxc-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.completed-project-card-time-duration {
+    list-style: none;
+    margin: 55px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 0.8rem !important;
+}
+
+.completed-project-card-time-duration:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    background: blueviolet;
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    height: calc(100% - 10px);
+}
+
+.completed-project-card-time-duration li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.completed-project-card-time-duration li:before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: blueviolet;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 10px;
+}
+
+.completed-project-card-target {
+    margin: 55px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 1rem;
+    word-break: break-all;
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.completed-project-card-features {
+    margin: 55px;
+    padding-top: 0px;
+    position: relative;
+    font-size: 1rem;
+    word-break: break-all;
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.completed-project-card-team {
+    padding-top: 0px;
+    position: relative;
+    overflow: hidden !important;
+    display: inline-block;
+    margin-top: 1.8rem;
+}
+
+.completed-project-card-team .user-pic {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+.completed-project-card-team .user-pic img {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.completed-project-card-team .user-pic span {
+    font-size: x-small;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-family: var(--text);
+}
+
+@media screen and (max-width: 2000px) {
+    .plx-card {
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        filter: drop-shadow(0 0.5px 0.6rem rgb(221, 221, 228));
+        border-radius: 4px;
+        font-family: var(--text);
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .plx-card {
+        width: 98%;
+        margin: auto;
+    }
+    .pxc-avatar img {
+        width: 125px;
+        height: 125px;
+    }
+    .pxc-subcard {
+        margin-right: 120px;
+        margin-left: -32px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .plx-card {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        border-radius: 2px;
+        margin: 10px 0px;
+    }
+    .pxc-avatar {
+        width: 100%;
+        height: 100px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pxc-avatar img {
+        margin-top: 100px;
+    }
+    .pxc-subcard {
+        margin: 25px 15px 30px 15px;
+        padding: 60px 25px 20px;
+        width: auto;
+        height: auto;
+        flex: 1 0 auto;
+    }
+    .pxc-title {
+        font-size: 16px;
+        white-space: initial;
+        overflow: initial;
+        text-overflow: initial;
+    }
+    .pxc-feats {
+        font-size: 12px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .bottom-row {
+        border-top: solid 1px rgba(255, 255, 255, 0.05);
+        padding-top: 5px;
+    }
+    .bottom-row {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+    }
+    .pxc-tags {
+        height: 64px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 10px;
+    }
+    .bottom-row {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        position: absolute;
+        left: 20px;
+        bottom: 10px;
+    }
+    .completed-project-card-target {
+        margin: 20px;
+    }
+    .pxc-title {
+        position: absolute;
+        height: auto;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+        font-family: var(--text);
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}

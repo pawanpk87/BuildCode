@@ -1,0 +1,85 @@
+.send-box-chat-editor {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 80% 10% 10%;
+    grid-gap: 0%;
+    position: relative;
+}
+
+.send-box-chat-editor .send-box-chat-editor-main {
+    font-family: var(--text);
+}
+
+.expand-editor {
+    height: 25rem !important;
+}
+
+.expand-main-editor {
+    height: 25rem !important;
+}
+
+.send-box-chat-editor-main {
+    height: 60px;
+}
+
+.send-box-chat-editor-main .ql-container {
+    border: none !important;
+    height: 100%;
+    word-spacing: 5px;
+    font-size: 1rem;
+    font-family: var(--text);
+}
+
+.send-box-chat-editor-main .ql-toolbar {
+    border: none !important;
+}
+
+.send-box-chat-editor-main .ql-container .ql-tooltip {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.send-box-chat-editor-main .ql-container .ql-editor>iframe {
+    margin: auto;
+    width: 100%;
+    height: 30rem;
+}
+
+.send-box-chat-editor-main .ql-container .ql-editor>img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.send-box-chat-editor-main .ql-container .ql-editor>pre {
+    background-color: rgb(232, 232, 255) !important;
+    color: rgb(0, 0, 0) !important;
+    padding: 20px !important;
+    text-align: justify !important;
+    border-radius: 10px !important;
+}
+
+.send-box-chat-editor-main .ql-container .ql-editor {
+    --scrollbarBG: #ffffff;
+    --thumbBG: rgb(216, 216, 216);
+}
+
+.send-box-chat-editor-main .ql-container .ql-editor::-webkit-scrollbar {
+    width: 8px;
+}
+
+.send-box-chat-editor-main .ql-container .ql-editor {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.send-box-chat-editor-main .ql-container .ql-editor::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.send-box-chat-editor-main .ql-container .ql-editor::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 10px;
+    border: 3px solid var(--scrollbarBG);
+}

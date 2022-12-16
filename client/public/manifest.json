@@ -1,0 +1,73 @@
+{
+    "short_name": "BuildCode",
+    "name": "BuildCode - Build Your Team  and Write Your Code.",
+    "icons": [{
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [{
+            "name": "Requested Projects",
+            "short_name": "Projects",
+            "description": "View latest requested projects",
+            "url": "/requested-projects",
+            "icons": [{ "src": "https://firebasestorage.googleapis.com/v0/b/buildcode-db.appspot.com/o/BuildCode%2Fbuild-code-icon-jpg.png?alt=media&token=3bb10eef-e5b3-4d7f-acdc-2800897dc483", "sizes": "192x192" }]
+        },
+        {
+            "name": "Latest Articles",
+            "short_name": "Articles",
+            "description": "View latest articles",
+            "url": "/articles",
+            "icons": [{ "src": "https://images/articles/ArticleIcon.pnghttps://firebasestorage.googleapis.com/v0/b/buildcode-db.appspot.com/o/BuildCode%2Fbuild-code-icon-jpg.png?alt=media&token=3bb10eef-e5b3-4d7f-acdc-2800897dc483", "sizes": "192x192" }]
+        },
+        {
+            "name": "Latest Interview Experiences",
+            "short_name": "Interview Experiences",
+            "description": "View latest interview experiences",
+            "url": "/interview-experiences",
+            "icons": [{ "src": "https://images/articles/InterviewIcon.pnghttps://firebasestorage.googleapis.com/v0/b/buildcode-db.appspot.com/o/BuildCode%2Fbuild-code-icon-jpg.png?alt=media&token=3bb10eef-e5b3-4d7f-acdc-2800897dc483", "sizes": "192x192" }]
+        },
+        {
+            "name": "Write an Article",
+            "short_name": "Write",
+            "description": "Write your Article",
+            "url": "/write",
+            "icons": [{ "src": "https://firebasestorage.googleapis.com/v0/b/buildcode-db.appspot.com/o/BuildCode%2Fbuild-code-icon-jpg.png?alt=media&token=3bb10eef-e5b3-4d7f-acdc-2800897dc483", "sizes": "192x192" }]
+        },
+        {
+            "name": "Write interview experience",
+            "short_name": "Write Interview Experience",
+            "description": "Write your Interview Experience",
+            "url": "/write/interview-experience",
+            "icons": [{ "src": "https://firebasestorage.googleapis.com/v0/b/buildcode-db.appspot.com/o/BuildCode%2Fbuild-code-icon-jpg.png?alt=media&token=3bb10eef-e5b3-4d7f-acdc-2800897dc483", "sizes": "192x192" }]
+        }
+    ],
+    "description": "Build code is a free, online peer-finding platform for Project-building. It’s a community of coders who come together to build projects.",
+    "screenshots": [{
+            "src": "https://firebasestorage.googleapis.com/v0/b/buildcode-db.appspot.com/o/BuildCode%2Fbuild-code-log-png.png?alt=media&token=89dee950-0ea9-4ce9-9c7c-3f6d036dd595",
+            "type": "image/png",
+            "sizes": "540x720"
+        },
+        {
+            "src": "https://firebasestorage.googleapis.com/v0/b/buildcode-db.appspot.com/o/BuildCode%2Fbuild-code-log-jpg.jpg?alt=media&token=b439108a-cfb9-43c3-a728-58943f0c755d",
+            "type": "image/jpg",
+            "sizes": "540x720"
+        }
+    ]
+}

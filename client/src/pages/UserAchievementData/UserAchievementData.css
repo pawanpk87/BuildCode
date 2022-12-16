@@ -1,0 +1,107 @@
+.requested-user-data-main {
+    width: 70%;
+    position: relative;
+    height: auto;
+}
+
+.requested-user-data-main-grid {
+    width: 75%;
+    margin: auto;
+}
+
+.requested-user-data-main-grid .user-details {
+    margin: auto;
+    width: 20%;
+    text-align: center;
+}
+
+.requested-user-data-main-grid .user-details .img {
+    margin: auto;
+}
+
+.requested-user-data-main-grid .user-details .img img {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.requested-user-data-main-grid .main-contant .type {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.requested-user-current-ach-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px;
+}
+
+@media only screen and (max-width: 2000px) {
+    .requested-user-data-main {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1268px) {
+    .requested-user-data-main {
+        width: 100%;
+    }
+    .requested-user-current-ach-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 45% 45%;
+        grid-gap: 5%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .requested-user-data-main {
+        width: 95%;
+    }
+    .requested-user-data-main-grid {
+        width: 90%;
+        margin: auto;
+    }
+    .requested-user-current-ach-grid {
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .requested-user-data-main {
+        width: 95%;
+    }
+    .requested-user-data-main-grid {
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .requested-user-current-ach-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 80%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .requested-user-data-main {
+        width: 90%;
+    }
+    .requested-user-data-main-grid {
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+    .requested-user-current-ach-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 95%;
+    }
+}

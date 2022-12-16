@@ -1,0 +1,369 @@
+.profile-card {
+    --scrollbarBG: #ffffff;
+    --thumbBG: #f3f3f3;
+}
+
+.profile-card::-webkit-scrollbar {
+    width: 8px;
+}
+
+.profile-card {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.profile-card::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.profile-card::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 4px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 32% 32% 32%;
+    width: 55%;
+    padding: 20px;
+    grid-gap: 8px;
+    margin: auto;
+}
+
+.user-personal-info-main-grid {
+    width: 100%;
+    padding: 0px;
+    height: auto;
+    margin-top: 0px;
+}
+
+.user-personal-info-main-grid .basic-info {
+    padding: 50px;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 2px 20px rgba(79, 79, 79, 0.2);
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.user-personal-info-main-grid .basic-info .title {
+    color: blue;
+    font-size: 1.8rem;
+}
+
+.user-personal-info-main-grid .basic-info .details {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+    padding: 10px;
+    grid-gap: 15px;
+}
+
+.user-personal-info-main-grid .basic-info .details .field {
+    font-size: 1rem;
+    color: #3a3b3b;
+}
+
+.user-personal-info-main-grid .basic-info .details .vlaue {
+    font-size: 1.4rem;
+}
+
+.profile-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #d9dbdc;
+    border-radius: .25rem;
+    margin: 0px;
+    margin-bottom: 24px;
+    height: 87vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 4%;
+}
+
+#updated-profile-btn,
+#change-passwor-btn {
+    border: 2px solid blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px !important;
+}
+
+.user-edit-btn {
+    border: 2px solid blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px !important;
+}
+
+.user-chnage-pwd-btn {
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px !important;
+}
+
+.disabledCursor {
+    cursor: default;
+}
+
+.avatar-lg {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #ecf2f5;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: 60px;
+}
+
+.avatar-sm {
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.me-2 {
+    margin-right: .75rem!important;
+}
+
+.avatar-md {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.font-13 {
+    font-size: 16px!important;
+}
+
+.social-list-item {
+    height: 2rem;
+    width: 2rem;
+    line-height: calc(2rem - 2px);
+    display: block;
+    border: 2px solid #adb5bd;
+    border-radius: 50%;
+    color: #adb5bd;
+}
+
+.profile-skill {
+    background: rgb(238, 238, 238);
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 6px;
+    color: black;
+}
+
+.user-profile-profile-card-title {
+    padding: 8px 12px;
+    text-align: center;
+    border-radius: 10px;
+    background: #d5d7ec;
+}
+
+.dropbtn {
+    font-size: 0.8rem;
+    color: blue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content span:hover {
+    color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-seeting {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+}
+
+.user-seeting .options i {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: blue;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:2000px) {
+    .profile-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 32% 32% 32%;
+        height: 90vh;
+        width: 90%;
+        padding: 10px;
+        grid-gap: 5px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .user-project-btn-info {
+        width: 30%;
+        font-size: 12px !important;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 10px;
+        margin-top: 10px !important;
+    }
+    .profile-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        width: 70%;
+        padding: 50px;
+        grid-gap: 15px;
+        height: 2000px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .profile-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        width: 100%;
+        padding: 50px;
+        grid-gap: 15px;
+        height: 2000px;
+        margin: auto;
+    }
+    .user-personal-info-main-grid .basic-info .details .field {
+        font-size: 0.9rem;
+    }
+    .user-personal-info-main-grid .basic-info .details .vlaue {
+        font-size: 1.1rem;
+    }
+    .user-personal-info-main-grid .basic-info .title {
+        font-size: 1.5rem;
+    }
+    .user-edit-btn {
+        padding: 10px;
+        margin-top: 10px !important;
+    }
+    .user-chnage-pwd-btn {
+        font-size: 0.8rem !important;
+        padding: 3px;
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .profile-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        width: 100%;
+        padding: 40px;
+        grid-gap: 15px;
+        height: 2000px;
+        margin: auto;
+    }
+    .user-personal-info-main-grid .basic-info .details .field {
+        font-size: 0.7rem;
+    }
+    .user-personal-info-main-grid .basic-info .details .vlaue {
+        font-size: 0.9rem;
+    }
+    .user-personal-info-main-grid .basic-info .title {
+        font-size: 1.2rem;
+    }
+    .user-edit-btn {
+        padding: 1px;
+        border-radius: 5px;
+        margin-top: 8px !important;
+        font-size: 0.6rem !important;
+    }
+    .user-chnage-pwd-btn {
+        font-size: 0.6rem !important;
+        padding: 1px;
+        margin-top: 8px !important;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .profile-grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        width: 100%;
+        padding: 0px;
+        grid-gap: 15px;
+        height: 2000px;
+    }
+    .user-personal-info-main-grid .basic-info .details .field {
+        font-size: 0.5rem;
+    }
+    .user-personal-info-main-grid .basic-info .details .vlaue {
+        font-size: 0.6rem;
+    }
+    .user-personal-info-main-grid .basic-info .title {
+        font-size: 0.9rem;
+    }
+    .user-edit-btn {
+        padding: 2px;
+        margin-top: 6px !important;
+    }
+    .user-chnage-pwd-btn {
+        font-size: 0.4rem !important;
+        padding: 0px;
+        margin-top: 4px !important;
+    }
+}

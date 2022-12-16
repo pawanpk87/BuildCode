@@ -1,0 +1,290 @@
+.project-building-main-grid {
+    width: 60%;
+    padding: 2rem;
+    margin: auto;
+    word-spacing: 5px !important;
+}
+
+.project-building-steps {
+    list-style: none;
+    margin: 1rem;
+    padding-top: 3.5rem;
+    position: relative;
+    font-size: 1rem;
+}
+
+.project-building-steps:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    background: blue;
+    position: absolute;
+    left: 10px;
+    top: 5rem;
+    height: calc(100% - 15px);
+}
+
+.project-building-steps li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 8rem;
+}
+
+.project-building-steps li:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    margin-top: 5rem;
+    border-radius: 10px;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-row-gap: 0%;
+}
+
+.steps-grid .img img {
+    width: 290px;
+    height: 230px;
+    margin: auto;
+}
+
+.steps-grid .content {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+}
+
+.steps-grid .content p {
+    text-align: left;
+}
+
+.chatroom-projectblog-steps {
+    list-style: none;
+    margin: 0.2rem;
+    padding-top: 2.5rem;
+    position: relative;
+    font-size: 1rem;
+}
+
+.chatroom-projectblog-steps:before {
+    content: "";
+    display: inline-block;
+    width: 0px;
+    background: blue;
+    position: absolute;
+    left: 0px;
+    top: 1rem;
+    height: calc(100% - 15px);
+}
+
+.chatroom-projectblog-steps li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 0.1rem;
+}
+
+.chatroom-projectblog-steps li:before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.chatroom-projectblog-steps .steps-grid .img img {
+    width: 160px;
+    height: 120px;
+    margin: auto;
+}
+
+.chatroom-projectblog-steps .steps-grid .content {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 2000px) {
+    .project-building-main-grid {
+        width: 90%;
+        padding: 2rem;
+        margin: auto;
+        word-spacing: 5px !important;
+    }
+}
+
+@media only screen and (max-width:1268px) {
+    .project-building-main-grid {
+        width: 100%;
+        padding: 2rem;
+        margin: auto;
+        word-spacing: 5px !important;
+    }
+    .project-building-steps {
+        list-style: none;
+        margin: 0.4rem;
+        padding-top: 0rem;
+        position: relative;
+        font-size: 1rem;
+    }
+    .project-building-steps li:before {
+        top: 5px;
+    }
+    .steps-grid {
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: auto;
+        grid-row-gap: 0%;
+    }
+    .steps-grid .img img {
+        width: 290px;
+        height: 230px;
+        margin: auto;
+    }
+    .steps-grid .content {
+        width: 100%;
+        height: 100%;
+        padding: 1.8rem;
+    }
+    .steps-grid .content p {
+        text-align: left;
+    }
+    .chatroom-projectblog-steps {
+        list-style: none;
+        margin: 0.2rem;
+        padding-top: 2.5rem;
+        position: relative;
+        font-size: 1rem;
+    }
+    .chatroom-projectblog-steps:before {
+        content: "";
+        display: inline-block;
+        width: 0px;
+        background: blue;
+        position: absolute;
+        left: 0px;
+        top: 1rem;
+        height: calc(100% - 15px);
+    }
+    .chatroom-projectblog-steps li {
+        position: relative;
+        padding-left: 15px;
+        margin-bottom: 0.1rem;
+    }
+    .chatroom-projectblog-steps li:before {
+        content: "";
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: blue;
+        position: absolute;
+        left: 0;
+        top: 0px;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+    .chatroom-projectblog-steps .steps-grid .img img {
+        width: 160px;
+        height: 120px;
+        margin: auto;
+    }
+    .chatroom-projectblog-steps .steps-grid .content {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .project-building-main-grid {
+        width: 100%;
+        padding: 2rem;
+        margin: auto;
+        word-spacing: 5px !important;
+    }
+    .project-building-steps {
+        list-style: none;
+        margin: 0.4rem;
+        padding-top: 0rem;
+        position: relative;
+        font-size: 1rem;
+    }
+    .project-building-steps li:before {
+        top: 5px;
+    }
+    .steps-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-row-gap: 0%;
+    }
+    .steps-grid .img img {
+        width: 260px;
+        height: 200px;
+        margin: auto;
+    }
+    .steps-grid .content {
+        width: 100%;
+        height: 100%;
+        padding: 0.8rem;
+    }
+    .steps-grid .content p {
+        text-align: left;
+    }
+    .chatroom-projectblog-steps {
+        list-style: none;
+        margin: 0.2rem;
+        padding-top: 0.5rem;
+        position: relative;
+        font-size: 1rem;
+    }
+    .chatroom-projectblog-steps:before {
+        content: "";
+        display: inline-block;
+        width: 0px;
+        background: blue;
+        position: absolute;
+        left: 0px;
+        top: 1rem;
+        height: calc(100% - 15px);
+    }
+    .chatroom-projectblog-steps li {
+        position: relative;
+        padding-left: 15px;
+        margin-bottom: 0.1rem;
+    }
+    .chatroom-projectblog-steps li:before {
+        content: "";
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: blue;
+        position: absolute;
+        left: 0;
+        top: 0px;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+    .chatroom-projectblog-steps .steps-grid .img img {
+        width: 140px;
+        height: 100px;
+        margin: auto;
+    }
+    .chatroom-projectblog-steps .steps-grid .content {
+        width: 100%;
+        height: 100%;
+        padding: 0.2rem;
+    }
+}

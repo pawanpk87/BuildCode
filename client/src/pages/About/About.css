@@ -1,0 +1,115 @@
+.about-page-main-grid {
+    width: 60%;
+    margin-left: 2%;
+}
+
+.about-main-content {
+    text-align: center;
+    margin: 10px;
+}
+
+.about-page-main-grid .info-card-about-page {
+    display: grid;
+    grid-template-columns: 30% 68%;
+    grid-gap: 2%;
+    margin: 2rem;
+}
+
+.about-page-main-grid .info-card-about-page #first {
+    text-align: center;
+    margin: auto;
+}
+
+.about-page-main-grid .info-card-about-page #first img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.about-page-main-grid .info-card-about-page #second {
+    margin: auto;
+    text-align: justify;
+}
+
+.about-page-main-grid .info-card-about-page #second p {
+    font-size: 1.4rem;
+}
+
+.about-us-intro-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2%;
+    margin: 0.5rem;
+}
+
+.about-us-intro-grid #first {
+    margin: auto;
+}
+
+.about-us-intro-grid #first p {
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.about-us-intro-grid #second img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.extra-info {
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 2000px) {
+    .about-page-main-grid {
+        width: 95%;
+        margin: auto;
+    }
+    .about-page-main-grid .info-card-about-page {
+        display: grid;
+        grid-template-columns: 30% 68%;
+        grid-gap: 2%;
+        margin: 2rem;
+    }
+}
+
+@media only screen and (max-width:1268px) {
+    .about-page-main-grid {
+        width: 75%;
+        margin: auto;
+    }
+    .about-page-main-grid .info-card-about-page {
+        display: grid;
+        grid-template-columns: 30% 68%;
+        grid-gap: 2%;
+    }
+    .about-page-main-grid .info-card-about-page {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 2%;
+        margin: auto;
+    }
+    .about-us-intro-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 2%;
+        margin: auto;
+    }
+    .about-us-intro-grid #second img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .about-page-main-grid {
+        width: 98%;
+        margin: auto;
+    }
+}

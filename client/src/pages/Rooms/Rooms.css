@@ -1,0 +1,7 @@
+.app_body {
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+}

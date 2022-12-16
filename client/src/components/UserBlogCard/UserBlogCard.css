@@ -1,0 +1,53 @@
+.user-profile-article-card {
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 20px rgba(129, 129, 129, 0.2);
+}
+
+.user-profile-article-card .user-profile-article-main-content p {
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: rgb(57, 57, 57);
+    font-weight: 550;
+    word-spacing: 6px;
+    font-size: small;
+}
+
+.user-profile-article-card a:hover {
+    color: black;
+}
+
+.user-profile-article-card small {
+    color: rgb(115, 115, 115);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: x-small;
+}
+
+.user-profile-article-card .title {
+    width: 100%;
+}
+
+.user-profile-article-card .title span {
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: blue;
+}
