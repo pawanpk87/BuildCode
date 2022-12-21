@@ -56,7 +56,6 @@ The aim behind developing BuildCode is to help the students to gain more practic
 
 ### ABOUT THE PROJECT
 BuildCode is a platform, where you can solve your problem of finding peers to code along with, and work on either of your ideology on an impacting life-changing project or get ready for the corporate project experience by practicing with your peer.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 ### How to make Prject Request (https://buildcode.org/how-to-make-project)
 ```
@@ -143,8 +142,6 @@ Now you can share your project with all your friends, colleagues, and on social 
 
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -153,5 +150,3 @@ Now you can share your project with all your friends, colleagues, and on social 
 Your Name - Pawan Kumar Mehta - arowpk@gmail.com
 
 Project Link: [https://github.com/pawanpk87/BuildCode](https://github.com/pawanpk87/BuildCode)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
