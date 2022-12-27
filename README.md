@@ -125,6 +125,6 @@ Now you can share your project with all your friends, colleagues, and on social 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - Pawan Kumar Mehta - arowpk@gmail.com
+Pawan Kumar Mehta - arowpk@gmail.com
 
 Project Link: [https://github.com/pawanpk87/BuildCode](https://github.com/pawanpk87/BuildCode)
