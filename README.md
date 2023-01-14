@@ -11,7 +11,7 @@
     <h2>BuildCode is a free, online peer-finding platform for Project-building.</h2>
   </p>
   
-  <h3 align="center">
+  <h5 align="center">
     <a href="https://buildcode.org/project-request">Make Project Request</a>
     <span> · </span>
     <a href="https://buildcode.org/requested-projects">Join Requested ProjectsRequest Feature</a>
@@ -21,9 +21,7 @@
     <a href="https://buildcode.org/interview-experiences/recent-interview-experience">Write Interview Experience</a>
     <span> · </span>
     <a href="https://buildcode.org/">View Articles/Interview Experience</a>
-    <span> · </span>
-    <a href="https://github.com/facebook/react-native/blob/HEAD/.github/SUPPORT.md">Support</a>
-  </h3>
+  </h5>
 </div>
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/87040096/212486526-77442c9a-9f74-4fa1-995c-28b4436521f3.png)
