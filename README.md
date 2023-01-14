@@ -7,6 +7,10 @@
 
   <h3 align="center">BuildCode</h3>
   
+  <p align="center">
+    <h2>BuildCode is a free, online peer-finding platform for Project-building.</h2>
+  </p>
+  
   <h3 align="center">
     <a href="https://buildcode.org/project-request">Make Project Request</a>
     <span> · </span>
@@ -20,10 +24,6 @@
     <span> · </span>
     <a href="https://github.com/facebook/react-native/blob/HEAD/.github/SUPPORT.md">Support</a>
   </h3>
-
-  <p align="center">
-    <h4>BuildCode is a free, online peer-finding platform for Project-building.</h4>
-  </p>
 </div>
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/87040096/212486526-77442c9a-9f74-4fa1-995c-28b4436521f3.png)
